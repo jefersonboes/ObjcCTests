@@ -1,5 +1,5 @@
 /**
-* Testes with Objective C
+* Tests with Objective C
 *
 * @author Jeferson B.
 */
