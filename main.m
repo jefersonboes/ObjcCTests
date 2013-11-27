@@ -1,3 +1,9 @@
+/**
+* Testes with Objective C
+*
+* @author Jeferson B.
+*/
+
 //gcc main.m `gnustep-config --objc-flags` `gnustep-config --objc-libs` -lobjc -lgnustep-base -o main
 
 #include <objc/Object.h>
@@ -122,7 +128,6 @@ int main(void)
 	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 	NSLog( @"Objective-C has ARC now :D");
 	[pool drain];
-
 
 	return EXIT_SUCCESS;
 }
